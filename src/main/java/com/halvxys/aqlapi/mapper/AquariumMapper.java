@@ -1,7 +1,7 @@
 package com.halvxys.aqlapi.mapper;
 
-import com.halvxys.aqualogic.models.Aquarium;
-import com.halvxys.aqualogic.models.dto.AquariumDTO;
+import com.halvxys.aqlapi.models.Aquarium;
+import com.halvxys.aqlapi.models.dto.AquariumDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

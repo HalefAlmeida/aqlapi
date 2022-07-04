@@ -1,7 +1,7 @@
 package com.halvxys.aqlapi.controller;
 
-import com.halvxys.aqualogic.models.dto.AquariumDTO;
-import com.halvxys.aqualogic.services.AquariumService;
+import com.halvxys.aqlapi.models.dto.AquariumDTO;
+import com.halvxys.aqlapi.services.AquariumService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

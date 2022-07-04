@@ -1,6 +1,6 @@
 package com.halvxys.aqlapi.exceptions;
 
-import com.halvxys.aqualogic.utils.MessageUtils;
+import com.halvxys.aqlapi.utils.MessageUtils;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException() {

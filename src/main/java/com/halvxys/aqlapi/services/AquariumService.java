@@ -1,10 +1,10 @@
 package com.halvxys.aqlapi.services;
 
-import com.halvxys.aqualogic.exceptions.NotFoundException;
-import com.halvxys.aqualogic.mapper.AquariumMapper;
-import com.halvxys.aqualogic.models.Aquarium;
-import com.halvxys.aqualogic.models.dto.AquariumDTO;
-import com.halvxys.aqualogic.repository.AquariumRepo;
+import com.halvxys.aqlapi.exceptions.NotFoundException;
+import com.halvxys.aqlapi.mapper.AquariumMapper;
+import com.halvxys.aqlapi.models.Aquarium;
+import com.halvxys.aqlapi.models.dto.AquariumDTO;
+import com.halvxys.aqlapi.repository.AquariumRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
