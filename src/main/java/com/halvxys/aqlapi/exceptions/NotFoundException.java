@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.exceptions;
+package com.halvxys.aqlapi.exceptions;
 
 import com.halvxys.aqualogic.utils.MessageUtils;
 

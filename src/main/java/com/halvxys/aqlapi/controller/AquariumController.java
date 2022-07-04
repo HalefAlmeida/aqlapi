@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.controller;
+package com.halvxys.aqlapi.controller;
 
 import com.halvxys.aqualogic.models.dto.AquariumDTO;
 import com.halvxys.aqualogic.services.AquariumService;

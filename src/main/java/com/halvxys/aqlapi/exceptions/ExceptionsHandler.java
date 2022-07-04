@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.exceptions;
+package com.halvxys.aqlapi.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

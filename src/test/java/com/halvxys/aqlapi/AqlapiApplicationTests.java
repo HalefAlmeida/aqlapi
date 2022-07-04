@@ -1,10 +1,10 @@
-package com.halvxys.aqualogic;
+package com.halvxys.aqlapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AqualogicApplicationTests {
+class AqlapiApplicationTests {
 
 	@Test
 	void contextLoads() {

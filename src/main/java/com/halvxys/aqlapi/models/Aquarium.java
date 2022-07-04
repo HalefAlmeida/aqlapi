@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.models;
+package com.halvxys.aqlapi.models;
 
 import javax.persistence.*;
 

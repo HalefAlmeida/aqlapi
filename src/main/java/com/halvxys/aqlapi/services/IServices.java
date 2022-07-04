@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.services;
+package com.halvxys.aqlapi.services;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

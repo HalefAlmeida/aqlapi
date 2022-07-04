@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.services;
+package com.halvxys.aqlapi.services;
 
 import com.halvxys.aqualogic.exceptions.NotFoundException;
 import com.halvxys.aqualogic.mapper.AquariumMapper;

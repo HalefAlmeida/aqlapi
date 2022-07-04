@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.controller;
+package com.halvxys.aqlapi.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

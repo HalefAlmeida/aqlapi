@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.mapper;
+package com.halvxys.aqlapi.mapper;
 
 import org.springframework.stereotype.Component;
 

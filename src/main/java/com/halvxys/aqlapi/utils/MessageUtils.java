@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.utils;
+package com.halvxys.aqlapi.utils;
 
 public class MessageUtils {
     public static final String REGISTER_ALREADY_EXISTS = "Register already exists in the database";

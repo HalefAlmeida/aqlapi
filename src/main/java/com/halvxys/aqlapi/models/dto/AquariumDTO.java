@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.models.dto;
+package com.halvxys.aqlapi.models.dto;
 
 import javax.validation.constraints.NotNull;
 

@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.mapper;
+package com.halvxys.aqlapi.mapper;
 
 import com.halvxys.aqualogic.models.Aquarium;
 import com.halvxys.aqualogic.models.dto.AquariumDTO;

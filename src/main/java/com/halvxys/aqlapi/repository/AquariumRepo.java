@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic.repository;
+package com.halvxys.aqlapi.repository;
 
 import com.halvxys.aqualogic.models.Aquarium;
 import org.springframework.data.jpa.repository.JpaRepository;

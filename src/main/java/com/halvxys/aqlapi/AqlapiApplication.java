@@ -1,4 +1,4 @@
-package com.halvxys.aqualogic;
+package com.halvxys.aqlapi;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class AqualogicApplication {
+public class AqlapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AqualogicApplication.class, args);
+		SpringApplication.run(AqlapiApplication.class, args);
 	}
 	@Bean
 	public OpenAPI customOpenAPI(@Value("${application.description}") String description, @Value("${application.version}") String version){
