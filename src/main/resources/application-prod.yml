@@ -11,8 +11,6 @@ application:
   version: 0.0.0
 
 spring:
-  profiles:
-    active: prod
   datasource:
     driver-class-name: org.postgresql.Driver
     url: ${DATABASE_URL}
