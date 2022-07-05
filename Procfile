@@ -1,1 +1,1 @@
-web: mvn spring-boot:run -Dspring.profiles.active=prod
+web: mvn spring-boot:run -D spring.profiles.active=prod
