@@ -1,0 +1,27 @@
+#Esse profile apenas será executado quando o parâmetro profiles.active for setado como prod,
+#assim, no momento da executação do Spring boot é preciso passar o seguinte parâmetro -Dspring.profiles.active=prod,
+#sendo exeutado com o comando: mvn spring-boot:run -Dspring.profiles.active=prod.
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+application:
+  description: AquaLogic API
+  version: 0.0.0
+
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgres://ucwtgezycizhlm:baec64bcf1c1b4620b7c9f18cdc4369d553697306f37171fc6a0dcba1e42bfca@ec2-44-205-41-76.compute-1.amazonaws.com:5432/daj9as8i9o34g8
+    username: ucwtgezycizhlm
+    password: baec64bcf1c1b4620b7c9f18cdc4369d553697306f37171fc6a0dcba1e42bfca
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
