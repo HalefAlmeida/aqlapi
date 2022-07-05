@@ -15,9 +15,11 @@ spring:
     active: prod
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: postgres://ucwtgezycizhlm:baec64bcf1c1b4620b7c9f18cdc4369d553697306f37171fc6a0dcba1e42bfca@ec2-44-205-41-76.compute-1.amazonaws.com:5432/daj9as8i9o34g8
+    url: ${DATABASE_URL}
     username: ucwtgezycizhlm
     password: baec64bcf1c1b4620b7c9f18cdc4369d553697306f37171fc6a0dcba1e42bfca
+  thymeleaf:
+    cache: true
 
   jpa:
     show-sql: true
